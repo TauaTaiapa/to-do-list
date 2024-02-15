@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>To Do List</title>
-    <link rel="stylesheet" href="/styles/toodolist.css">
+    <link rel="stylesheet" href="/styles/toodolist.css" />
   </head>
   <body>
-    <div class="container"</div>
+    <div class="container">
       <div class="todo-app">
-        <h2>To Do List <img src="/images/icon.png"</h2>
-      <div class="row">
-        <input type="text" id="inputbox" placeholder=" Add your text">
-        <button onclick="addTask()">Add</button>
+        <h2>To Do List <img src="/images/icon.png" /></h2>
+        <ul id="listcontainer">
+          <!-- <li class="checked">Task 1</li>
+          <li>Task 2</li>
+          <li>Task 3</li>
+          <li>Task 4</li> -->
+        </ul>
+        <div class="row">
+          <input type="text" id="inputbox" placeholder=" Add your text" />
+          <button onclick="addTask()">Add</button>
+        </div>
       </div>
-      <ul id="listcontainer">
-        <!-- <li class="checked">Task 1</li>
-        <li>Task 2</li>
-        <li>Task 3</li>
-        <li>Task 4</li> -->
-      </ul>
-      </div>
-      	<script src="script.js"></script>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
